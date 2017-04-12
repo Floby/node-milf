@@ -1,11 +1,30 @@
 {
   "name": "milf",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Milf is a polyglot broker for MOM's, exposing messages as `text/event-stream`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floby/node-milf.git"
+  },
+  "keywords": [
+    "Milf",
+    "MOM",
+    "message",
+    "queue",
+    "messages",
+    "queue",
+    "event-stream",
+    "event-source",
+    "EventSource"
+  ],
+  "author": "Florent Jaby <florent.jaby@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Floby/node-milf/issues"
+  },
+  "homepage": "https://github.com/Floby/node-milf#readme"
 }
